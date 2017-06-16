@@ -31,7 +31,7 @@ function leads_add_utms_to_forms( $additional_content, $lead_group, $form_type, 
 	// Now create the extra hidden fields if the utm param exists
 	foreach ( $url_params as $key => $custom_field) {
 		if ( array_key_exists( $key, $url_array ) ) {
-			$utm_value = $url_array[$key];
+			$utm_value = sanitize_text_field( $url_array[$key] );
 			$extra_fields .= "<input type='hidden' name='field[$custom_field]' value='$utm_value' ac-fieldname='$key' />";
 		}
 	}
