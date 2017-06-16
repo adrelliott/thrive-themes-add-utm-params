@@ -1,6 +1,6 @@
 This looks for all URL params defined in the code and appends them to the form which is then sent to your CRM by Thrive Themes.
 
-**IT is only tested with Active Campaign so far!**
+**It is only tested with Active Campaign so far!**
 
 ## Important:
 
@@ -15,4 +15,6 @@ Out of the box it looks for the 5 common UTM parameters, however I also use it s
 
 ## Demo
 
-Here's a demo of me setting it up.
+Here's a demo of me setting it up: https://www.useloom.com/share/c3d9b2fbf4e344ceae1e065b7fd52ade
+
+(Sorry for the background noise - I recorded it in Costa!)
